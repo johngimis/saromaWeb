@@ -816,7 +816,9 @@ pre code {
     flex-grow: 1;
     max-width: 100%;
   }
-
+  .contact-info .list-inline .contact-name{
+    color: red;
+  }
   .row-cols-sm-1 > * {
     flex: 0 0 100%;
     max-width: 100%;
@@ -1596,8 +1598,12 @@ pre code {
 
   .contact-info{
     text-align-last: center;
+    color: black;
+  
+  }
+
+  .contact-info .list-inline .contact-name{
     color: red;
-    font-size: 160%;
   }
 
   .order-xl-10 {
@@ -10433,8 +10439,8 @@ header.masthead .masthead-heading {
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  background-color: #96aac3;
+ 
   background-repeat: no-repeat;
   background-position: center;
 }
