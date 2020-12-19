@@ -6135,7 +6135,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color:rgb(255 255 255) !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -9989,7 +9989,7 @@ p {
 
 .page-section {
   padding: 6rem 0;
-  background: #f1f1f1;
+  background: rgb(255 255 255);;
   
 }
 .page-section h2.section-heading {
