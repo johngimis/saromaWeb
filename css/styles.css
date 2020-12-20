@@ -366,6 +366,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: 'Montserrat', sans-serif;  
   font-weight: 700;
   line-height: 1.2;
+  color: #72839c;
 }
 
 h1, .h1 {
@@ -10169,6 +10170,7 @@ header.masthead .masthead-heading {
     font-size: 2.25rem;
     line-height: 2.25rem;
     margin-bottom: 2rem;
+    margin-top: 19rem;
   }
   header.masthead .masthead-heading {
     font-size: 4.5rem;
@@ -10215,6 +10217,7 @@ header.masthead .masthead-heading {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   margin-bottom: 0;
+  color: #72839c;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
   font-family: 'Montserrat', sans-serif;
@@ -10406,6 +10409,7 @@ header.masthead .masthead-heading {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 20px 20px;
   }
+
 }
 @media (min-width: 1200px) {
   .timeline > li {
@@ -10424,6 +10428,17 @@ header.masthead .masthead-heading {
   }
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
+  }
+
+  
+}
+
+@media(min-width: 1913px){
+  header.masthead .masthead-subheading {
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+    margin-top: 29rem;
   }
 }
 .team-member {
