@@ -10506,3 +10506,13 @@ font-family: 'Montserrat', sans-serif;}
 *{
     font-family: 'Montserrat', sans-serif;
 }
+
+.contact-name{
+  margin-bottom: 10px;
+}
+.list-phones{
+  margin-bottom: 10px;
+}
+.contact-email{
+  margin-bottom: 10px;
+}
