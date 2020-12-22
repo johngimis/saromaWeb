@@ -230,6 +230,14 @@ label {
   margin-bottom: 0.5rem;
 }
 
+@media (min-width: 300px){
+  .contact-info .list-inline {
+    color: black;
+    text-align: center;
+    padding-top: 72px;
+  }
+  
+}
 button {
   border-radius: 0;
 }
@@ -817,8 +825,9 @@ pre code {
     flex-grow: 1;
     max-width: 100%;
   }
-  .contact-info .list-inline .contact-name{
+  .contact-info .list-inline {
     color: black;
+    text-align: center;
   }
   .row-cols-sm-1 > * {
     flex: 0 0 100%;
