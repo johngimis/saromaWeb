@@ -236,6 +236,12 @@ label {
     text-align: center;
     padding-top: 72px;
   }
+
+  .img-contact{
+    position: relative;
+    object-fit: scale-down;
+    max-width: 17%;
+  }
   
 }
 button {
