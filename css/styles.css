@@ -61,6 +61,10 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
+.contact-info .list-inline {
+  color: black;
+  text-align: center;
+}
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -233,8 +237,9 @@ label {
 @media (min-width: 300px){
   .contact-info .list-inline {
     color: black;
+
+  
     text-align: center;
-    padding-top: 72px;
   }
 
   .img-contact{
@@ -568,6 +573,13 @@ pre code {
   padding-left: 0.75rem;
   margin-right: auto;
   margin-left: auto;
+}
+
+@media (min-width: 576px){
+  .contact-info .list-inline {
+    color: black;
+    text-align: center;
+}
 }
 
 @media (min-width: 576px) {
@@ -1613,11 +1625,13 @@ pre code {
   }
 
   .contact-info{
-    text-align: center;
+    text-align: right;
     color: black;
   
   }
-
+  .contact-num{
+    padding-top: 44px;
+  }
 
 
   
